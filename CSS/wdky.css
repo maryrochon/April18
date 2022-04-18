@@ -1,0 +1,379 @@
+@font-face {
+    font-family: myFont;
+    src: url(fonts/Morton.otf);
+}
+body{
+    background: rgb(172, 141, 152);
+    height: 1700px;
+}
+#homebutton{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+#title{
+    font-family: 'myFont';
+    position: absolute;
+    left: 110px;
+    top: 25px;
+    font-size: 18px;
+    width: 1000px;
+}
+#book{
+    height: 500.94px;
+    width: 330px;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+}
+
+#star1{
+    height: 96.8px;
+    width: 108px;
+    position: absolute;
+    top: 150px;
+    left: 1450px;
+}
+#star2{
+    height: 96.8px;
+    width: 108px;
+    position: absolute;
+    top: 275px;
+    left: 1450px;
+}
+#star3{
+    height: 96.8px;
+    width: 108px;
+    position: absolute;
+    top: 400px;
+    left: 1450px;
+}
+#star4{
+    height: 50.8px;
+    width: 108px;
+    position: absolute;
+    top: 525px;
+    left: 1450px;
+}
+
+
+#review{
+    width: 800px;
+    font-size: 17px;
+    position: absolute;
+    top: 200px;
+    left: 560px;
+}
+
+#statstitle{
+    position: absolute;
+    left: 560px;
+    top: 310px; 
+}
+
+#stat1{
+    position: absolute;
+    left: 560px;
+    top: 375px;
+}
+#stat2{
+    position: absolute;
+    left: 560px;
+    top: 400px;
+}
+#stat3{
+    position: absolute;
+    left: 560px;
+    top: 425px;
+}
+#stat4{
+    position: absolute;
+    left: 560px;
+    top: 450px;
+}
+#stat5{
+    position: absolute;
+    left: 560px;
+    top: 475px;
+}
+#stat6{
+    position: absolute;
+    left: 560px;
+    top: 500px;
+}
+#stat7{
+    position: absolute;
+    left: 560px;
+    top: 525px;
+}
+#stat8{
+    position: absolute;
+    left: 560px;
+    top: 550px;
+}
+#stat9{
+    position: absolute;
+    left: 560px;
+    top: 575px;
+}
+
+
+#spoilers{
+    width: 99.5%;
+    text-align: center;
+    font-family: 'myFont';
+    position: absolute;
+    top: 725px;
+    color: white;
+    text-decoration: underline;
+    font-size: 30px;
+}
+#grexpl{
+    width: 99.5%;
+    text-align: center;
+    font-family: 'myFont';
+    position: absolute;
+    top: 835px;
+    font-size: 18px;
+}
+
+
+/*graph*/
+#graphtitle{
+    position: absolute;
+    top: 945px;
+    left: 500px;
+    font-family: 'myFont';
+}
+#horizontalgraph{
+    background: black;
+    position: absolute;
+    left: 352px;
+    top: 1577px;
+    width: 1050px;
+    height: 6px;
+}
+#verticalgraph{
+    background: black;
+    position: absolute;
+    left: 352px;
+    top: 1052px;
+    width: 6px;
+    height: 525px;
+}
+#horlabel{
+    font-family: 'myFont';
+    position: absolute;
+    top: 1580px;
+    left: 807px;
+}
+#vertlabel{
+    font-family: 'myFont';
+     /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation */
+   writing-mode: vertical-rl;
+   position: absolute;
+   top: 1165px;
+   left: 282px;
+   height: 350px;
+}
+.graph.wd1{
+    opacity: 0.15;
+}
+.graph.wd2{
+    opacity: 0.15;
+}
+.graph.wd3{
+    opacity: 0.15;
+}
+.graph.wd4{
+    opacity: 0.15;
+}
+.graph.wd5{
+    opacity: 0.15;
+}
+.graph.wd6{
+    opacity: 0.15;
+}
+.graph.wd7{
+    opacity: 0.15;
+}
+.graph.wd8{
+    opacity: 0.15;
+}
+.graph.wd9{
+    opacity: 0.15;
+}
+#wdky1{
+    background:rgb(156,27,69);
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1425px;
+    left: 439px;
+}
+#wdky1:hover{
+    opacity: 1;
+}
+#red1{
+    position: absolute;
+    top: 1406px;
+    left: 455px;
+    color: white;
+    opacity: 0;
+}
+#wdky2{
+    background:rgb(156,27,69);
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1324px;
+    left: 509px;
+}
+#wdky2:hover{
+    opacity: 1;
+}
+#red2{
+    position: absolute;
+    top: 1305px;
+    left: 525px;
+    color: white;
+    opacity: 0;
+}
+#wdky3{
+    background:rgb(156,27,69);
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1574px;
+    left: 589px;
+}
+#wdky3:hover{
+    opacity: 1;
+}
+#red3{
+    position: absolute;
+    top: 1555px;
+    left: 605px;
+    color: white;
+    opacity: 0;
+}
+#wdky4{
+    background:rgb(156,27,69);
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1324px;
+    left: 599px;
+}
+#wdky4:hover{
+    opacity: 1;
+}
+#red4{
+    position: absolute;
+    top: 1305px;
+    left: 615px;
+    color: white;
+    opacity: 0;
+}
+#wdky5{
+    background:rgb(156,27,69);
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1224px;
+    left: 669px;
+}
+#wdky5:hover{
+    opacity: 1;
+}
+#red5{
+    position: absolute;
+    top: 1205px;
+    left: 685px;
+    color: white;
+    opacity: 0;
+}
+#wdky6{
+    background:rgb(156,27,69);
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1574px;
+    left: 709px;
+}
+#wdky6:hover{
+    opacity: 1;
+}
+#red6{
+    position: absolute;
+    top: 1555px;
+    left: 725px;
+    color: white;
+    opacity: 0;
+}
+#wdky7{
+    background:rgb(156,27,69);
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1324px;
+    left: 749px;
+}
+#wdky7:hover{
+    opacity: 1;
+}
+#red7{
+    position: absolute;
+    top: 1305px;
+    left: 765px;
+    color: white;
+    opacity: 0;
+}
+#wdky8{
+    background:rgb(156,27,69);
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1149px;
+    left: 1039px;
+}
+#wdky8:hover{
+    opacity: 1;
+}
+#red8{
+    position: absolute;
+    top: 1130px;
+    left: 1055px;
+    color: white;
+    opacity: 0;
+}
+#wdky9{
+    background:rgb(156,27,69);
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1174px;
+    left: 1339px;
+}
+#wdky9:hover{
+    opacity: 1;
+}
+#red9{
+    position: absolute;
+    top: 1155px;
+    left: 1355px;
+    color: white;
+    opacity: 0;
+}
+

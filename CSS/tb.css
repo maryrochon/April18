@@ -1,0 +1,15 @@
+@font-face {
+    font-family: myFont;
+    src: url(fonts/Morton.otf);
+}
+body{
+    background: rgb(172, 141, 152);
+    height: 1700px;
+}
+#homebutton{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
